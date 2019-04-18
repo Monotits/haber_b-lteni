@@ -1,11 +1,11 @@
-#Eğitim Amaçlı Onedio Haber Bülteni (Requests ve BeatifulSoup4)
+#Eğitim Amaçlı Haber Bülteni (Requests ve BeatifulSoup4)
 
 import requests
 from bs4 import BeautifulSoup
 import time
 
 while True:
-    print("Onedio Haber Bülteni İçin Lütfen Bekleyin..")
+    print("Haber Bülteni İçin Lütfen Bekleyin..")
     time.sleep(1)
     istek = requests.get("https://onedio.com/")
 
@@ -54,7 +54,7 @@ while True:
 
 
     if geri=="q" or geri=="Q":
-        print("Onedio Haber Uygulaması Kapatılıyor!")
+        print("Haber Uygulaması Kapatılıyor!")
         time.sleep(1)
         break
     else:
